@@ -1,4 +1,5 @@
 h2 {
     background-color: red;
     color: aqua;
+    width: fit-content;
 }
