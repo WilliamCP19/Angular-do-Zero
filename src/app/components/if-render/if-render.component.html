@@ -1,0 +1,7 @@
+<div class="class">
+    <p>Se você passou de ano, você verá.</p>
+    <span *ngIf="canShow; else canShowFalse">VOCÊ NÃO PASSOU!!! Mas mesmo assim você está vendo hahahah</span>
+    <ng-template #canShowFalse>
+        Você não passou! Por isso está vendo isto.
+    </ng-template>
+</div>
